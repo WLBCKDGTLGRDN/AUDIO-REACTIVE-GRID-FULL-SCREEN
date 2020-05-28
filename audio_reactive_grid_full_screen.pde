@@ -23,8 +23,7 @@ float[][] terrain;
 void setup() {
   size(1920, 1080, P3D);
   
-  video = new Movie(this, "/Users/alexanderroberts/Downloads/MOV_0022.mp4");
-  //img = loadImage("Users/alexanderroberts/Desktop/PROCBACK.png");
+  video = new Movie(this, "/Users/Downloads/MOV_0022.mp4");
   video.play();
   
   cols = w / scl;
